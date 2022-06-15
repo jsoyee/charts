@@ -1,8 +1,8 @@
-# ygqygq2 Helm Charts
+# Ops Helm Charts
 
-[![Build Status](https://github.com/ygqygq2/charts/workflows/Lint%20and%20Test%20Charts/badge.svg)](https://github.com/ygqygq2/charts/actions) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/ygqygq2)](https://artifacthub.io/packages/search?repo=ygqygq2)
+[![Build Status](https://github.com/ygqygq2/charts/workflows/Lint%20and%20Test%20Charts/badge.svg)](https://github.com/ygqygq2/charts/actions) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/ops-charts)](https://artifacthub.io/packages/search?repo=ops-charts)
 
-This repository hosts the official **ygqygq2 Helm Charts** to deploy **ygqygq2** products to [Kubernetes](https://kubernetes.io/)
+This repository hosts the official **Ops Helm Charts** to deploy **Ops** products to [Kubernetes](https://kubernetes.io/)
 
 ## Install Helm
 
@@ -13,7 +13,7 @@ Get the latest [Helm release](https://github.com/kubernetes/helm#install).
 You need to add this Chart repo to Helm:
 
 ```console
-helm repo add ygqygq2 https://ygqygq2.github.io/charts/
+helm repo add ops-charts https://jsoyee.github.io/charts/
 helm repo update
 ```
 
