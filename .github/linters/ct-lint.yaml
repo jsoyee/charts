@@ -1,7 +1,7 @@
 chart-dirs:
-  - ygqygq2
+  - ops-charts
 chart-repos:
-  - ygqygq2=https://ygqygq2.github.io/charts
+  - ops-charts=https://jsoyee.github.io/charts
 check-version-increment: true
 debug: true
 remote: origin
