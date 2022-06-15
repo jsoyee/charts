@@ -1,6 +1,6 @@
 # Ops Helm Charts
 
-[![Build Status](https://github.com/jsoyee/charts/workflows/Lint%20and%20Test%20Charts/badge.svg)](https://github.com/jsoyee/charts/actions) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/ops-charts)](https://artifacthub.io/packages/search?repo=ops-charts)
+[![Build Status](https://github.com/jsoyee/charts/workflows/Lint%20and%20Test%20Charts/badge.svg)](https://github.com/jsoyee/charts/actions) [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/jsoyee)](https://artifacthub.io/packages/search?repo=jsoyee)
 
 This repository hosts the official **Ops Helm Charts** to deploy **Ops** products to [Kubernetes](https://kubernetes.io/)
 
