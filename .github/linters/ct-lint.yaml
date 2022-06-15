@@ -1,7 +1,7 @@
 chart-dirs:
-  - ops-charts
+  - jsoyee
 chart-repos:
-  - ops-charts=https://jsoyee.github.io/charts
+  - jsoyee=https://jsoyee.github.io/charts
 check-version-increment: true
 debug: true
 remote: origin
