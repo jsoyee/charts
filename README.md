@@ -13,7 +13,7 @@ Get the latest [Helm release](https://github.com/kubernetes/helm#install).
 You need to add this Chart repo to Helm:
 
 ```console
-helm repo add ops-charts https://jsoyee.github.io/charts/
+helm repo add jsoyee https://jsoyee.github.io/charts/
 helm repo update
 ```
 
