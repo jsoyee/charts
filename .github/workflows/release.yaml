@@ -28,12 +28,12 @@ jobs:
       - name: Add dependency chart repos
         run: |
           helm repo add bitnami https://charts.bitnami.com/bitnami
-          helm repo add ygqygq2 https://ygqygq2.github.io/charts
+          helm repo add ops-charts https://jsoyee.github.io/charts
 
       - name: Run chart-releaser
         uses: helm/chart-releaser-action@v1.4.0
         with:
-          charts_dir: ygqygq2
-          charts_repo_url: https://ygqygq2.github.io/charts
+          charts_dir: ops-charts
+          charts_repo_url: https://jsoyee.github.io/charts
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
