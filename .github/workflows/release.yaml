@@ -30,9 +30,10 @@ jobs:
           helm repo add bitnami https://charts.bitnami.com/bitnami
 
       - name: Run chart-releaser
-        uses: helm/chart-releaser-action@v1.4.0 --skip-existing
+        uses: helm/chart-releaser-action@v1.4.0
         with:
           charts_dir: jsoyee
+          config: cr.yaml
           charts_repo_url: https://jsoyee.github.io/charts
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
