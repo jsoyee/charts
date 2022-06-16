@@ -33,7 +33,6 @@ jobs:
         uses: helm/chart-releaser-action@v1.4.0
         with:
           charts_dir: jsoyee
-          config: cr.yaml
           charts_repo_url: https://jsoyee.github.io/charts
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
