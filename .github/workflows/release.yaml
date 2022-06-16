@@ -34,6 +34,8 @@ jobs:
         with:
           charts_dir: jsoyee
           charts_repo_url: https://jsoyee.github.io/charts
+        run: |
+          --skip-existing
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
